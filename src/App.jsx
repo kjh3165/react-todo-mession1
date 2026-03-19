@@ -1,5 +1,5 @@
-import TodoList from './TodoList'
-import TodoWriteForm from './TodoWriteForm'
+import TodoList from './components/TodoList'
+import TodoWriteForm from './components/TodoWriteForm'
 import useTodos from './useTodos'
 
 function App() {
