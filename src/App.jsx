@@ -3,12 +3,12 @@ import TodoWriteForm from './TodoWriteForm'
 import useTodos from './useTodos'
 
 function App() {
-    const { addTodo, removeTodo, toggleTodo } = useTodos()
+    const { todos, addTodo, removeTodo, toggleTodo } = useTodos()
 
     return (
         <>
             <TodoWriteForm addTodo={addTodo} />
-            <TodoList removeTodo={removeTodo} toggleTodo={toggleTodo} />
+            <TodoList todos={todos} removeTodo={removeTodo} toggleTodo={toggleTodo} />
         </>
     )
 }

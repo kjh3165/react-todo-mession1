@@ -1,9 +1,6 @@
-import { getItem } from './storage'
 import TodoItem from './TodoItem'
 
-function TodoList({ removeTodo, toggleTodo }) {
-    const todos = getItem('todos', [])
-
+function TodoList({ todos, removeTodo, toggleTodo }) {
     return (
         <ul>
             {todos.map((todo) => (
