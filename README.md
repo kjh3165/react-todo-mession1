@@ -4,13 +4,13 @@
 
 ## 컴포넌트 구조
 
-src/
-├─ components/
-│ ├─ TodoItem.jsx
-│ └─ TodoList.jsx
-│ └─ TodoWriteForm.jsx
-├─ App.css
-├─ App.jsx
-├─ main.jsx
-├─ useTodos.js
-└─ storage.js
+src/<br/>
+├─ components/<br/>
+│ ├─ TodoItem.jsx<br/>
+│ └─ TodoList.jsx<br/>
+│ └─ TodoWriteForm.jsx<br/>
+├─ App.css<br/>
+├─ App.jsx<br/>
+├─ main.jsx<br/>
+├─ useTodos.js<br/>
+└─ storage.js<br/>
