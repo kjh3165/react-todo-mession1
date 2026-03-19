@@ -14,3 +14,6 @@ src/<br/>
 ├─ main.jsx<br/>
 ├─ useTodos.js<br/>
 └─ storage.js<br/>
+
+## 스크린샷
+<img width="384" height="325" alt="TodoApp_screenshot" src="https://github.com/user-attachments/assets/a62269fe-cb03-4fca-aa58-3215de549817" />
