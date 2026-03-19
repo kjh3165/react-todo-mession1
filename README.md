@@ -17,4 +17,5 @@ src/<br/>
 
 ## 스크린샷
 
-<img width="384" height="325" alt="TodoApp_screenshot" src="https://github.com/user-attachments/assets/a62269fe-cb03-4fca-aa58-3215de549817" />
+<img width="681" height="522" alt="TodoApp_screenshot_2" src="https://github.com/user-attachments/assets/5c280f0a-cd1d-4559-a8b6-a8b5901414b9" />
+
