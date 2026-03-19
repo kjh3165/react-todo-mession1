@@ -11,9 +11,19 @@ function TodoWriteForm({ addTodo }) {
     }
 
     return (
-        <form className="todo-form" onSubmit={handleSubmit}>
-            <input type="text" id="todo" placeholder="할일을 입력하세요" />
-            <button type="submit">추가</button>
+        <form className="flex justify-center gap-x-4" onSubmit={handleSubmit}>
+            <input
+                type="text"
+                id="todo"
+                className="border border-gray-300 rounded-lg text-sm focus:outline-none focus:border-indigo-600"
+                placeholder=" 할 일을 입력하세요 "
+            />
+            <button
+                type="submit"
+                className=" p-2.5 bg-indigo-600 text-white border-0 rounded-lg cursor-pointer transition-colors duration-200 hover:bg-indigo-700"
+            >
+                추가
+            </button>
         </form>
     )
 }
