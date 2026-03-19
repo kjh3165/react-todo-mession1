@@ -1,0 +1,89 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    font-family:
+        -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+    background: #f5f7fb;
+    color: #333;
+    display: block;
+    text-align: center;
+    padding: 100px;
+}
+
+/* App container */
+.app {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 100px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* Input form */
+.todo-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.todo-form input {
+    flex: 0;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.todo-form input:focus {
+    outline: none;
+    border-color: #4f46e5;
+}
+
+/* Add button */
+.todo-form button {
+    padding: 10px 16px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.todo-form button:hover {
+    background: #4338ca;
+}
+
+/* Todo list */
+.todo-list {
+    list-style: none;
+}
+
+/* Checkbox */
+.check-box {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+/* Delete button */
+.delete-btn {
+    margin-left: 10px;
+    background: white;
+    border: 1px solid black;
+    color: #ef4444;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    text-decoration: underline;
+}

@@ -11,7 +11,7 @@ function TodoWriteForm({ addTodo }) {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="todo-form" onSubmit={handleSubmit}>
             <input type="text" id="todo" placeholder="할일을 입력하세요" />
             <button type="submit">추가</button>
         </form>
